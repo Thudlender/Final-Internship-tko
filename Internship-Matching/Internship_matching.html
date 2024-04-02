@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Internship Matching System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Internship Matching System</h2>
+
+<div id="companyContainer"></div>
+
+<div>
+  <h3>ข้อมูลนักศึกษาฝึกงาน</h3>
+  <label for="interns">ชื่อนักศึกษา:</label>
+  <input type="text" id="interns" placeholder="ชื่อนักศึกษา"><br><br>
+  <label for="age">อายุ:</label>
+  <input type="number" id="age" placeholder="อายุ"><br><br>
+  <label for="interests">ความสนใจ:</label>
+  <input type="text" id="interests" placeholder="ความสนใจ"><br><br>
+  <button onclick="addIntern()">เพิ่มนักศึกษาฝึกงาน</button>
+</div>
+
+<div id="matches">
+  <!-- ข้อมูลการจับคู่ระหว่างนักศึกษากับบริษัทจะปรากฏที่นี่ -->
+</div>
+
+<script src="matching_system.js"></script>
+
+</body>
+</html>
